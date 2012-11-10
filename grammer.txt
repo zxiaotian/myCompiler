@@ -1,0 +1,43 @@
+S' S
+S int main ( ) { declarations statements }
+declarations declarations declaration
+declarations declaration
+declaration number_type ids ;
+number_type int
+number_type float
+ids ids , id
+ids id
+ids id [ number ] = { numbers }
+numbers numbers , number
+numbers number
+statements statements statement
+statements statement
+statement return expr ;
+statement asgn ;
+statement iterator
+statement if_statement
+statement { statements }
+statement { }
+expr E
+E E + T
+E E - T
+E T
+T T * F
+T T / F
+T F
+F ( E )
+F number
+F id
+F id [ expr ]
+asgn left = expr
+left id
+left id [ expr ]
+iterator for ( asgn ; relation ; inc ) statement
+relation expr op expr
+op <
+op >=
+inc left ++
+if_statement if ( relation ) statement else statement
+statement printf ( string ) ;
+statement printf ( string , ids ) ;
+statement scanf ( string , & id ) ;
